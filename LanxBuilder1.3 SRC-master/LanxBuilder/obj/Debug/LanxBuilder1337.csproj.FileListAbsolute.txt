@@ -1,0 +1,9 @@
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\bin\Debug\LanxBuilder1337.exe
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\bin\Debug\LanxBuilder1337.pdb
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.csprojAssemblyReference.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.Form1.resources
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.Properties.Resources.resources
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.csproj.GenerateResource.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.csproj.CoreCompileInputs.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.exe
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Debug\LanxBuilder1337.pdb

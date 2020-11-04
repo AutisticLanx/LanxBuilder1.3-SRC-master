@@ -1,0 +1,21 @@
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\bin\Release\LanxBuilder1337.exe
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\bin\Release\LanxBuilder1337.pdb
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csprojAssemblyReference.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.Form1.resources
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.Properties.Resources.resources
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csproj.GenerateResource.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csproj.CoreCompileInputs.cache
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.exe
+C:\programlar\LanxBuilder SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.pdb
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\bin\Release\LanxBuilder1337.exe
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\bin\Release\LanxBuilder1337.pdb
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csprojAssemblyReference.cache
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.Form1.resources
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.Properties.Resources.resources
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csproj.GenerateResource.cache
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.csproj.CoreCompileInputs.cache
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.exe
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LanxBuilder1337.pdb
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\bin\Release\LanxBuilder1337.exe.config
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\LimeDownloader.Form1.resources
+C:\ProgramDataFiles\LanxBuilder 1.0 SRC-master\LanxBuilder\obj\Release\Lanx1337.Form1.resources
