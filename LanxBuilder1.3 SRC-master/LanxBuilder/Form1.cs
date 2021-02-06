@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Net;
@@ -246,7 +246,8 @@ namespace lanx1337
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
-            Process.Start("https://discord.gg/xWrYVavg");
+            Process.Start("https://discord.gg/X44Xt3gmss");
+            Process.Start("https://discord.gg/WhjMYEB8TP");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
