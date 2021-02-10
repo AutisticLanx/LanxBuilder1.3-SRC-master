@@ -25,49 +25,6 @@ namespace lanx1337
             InitializeComponent();
         }
 
-        private readonly Dictionary<DownloadPayloadResult, string> DownloadPayloadResultDescriptions = new Dictionary<DownloadPayloadResult, string>()
-        {
-            { DownloadPayloadResult.None, "None"},
-            { DownloadPayloadResult.InvalidAssembly, "Could not load assembly"},
-            { DownloadPayloadResult.InvalidNETAssembly, "Invalid .NET Assembly"},
-            { DownloadPayloadResult.InvalidURL, "Invalid URL"},
-            { DownloadPayloadResult.Valid, "Valid"}
-        };
-
-        private async Task<DownloadPayloadResult> DownloadDataAsync(string url)
-        {
-            var result = DownloadPayloadResult.None;
-            result = await Task.Run(() =>
-            {
-                using (var webClient = new WebClient())
-                {
-                    try
-                    {
-                        var payloadBytes = webClient.DownloadData(url);
-                        try
-                        {
-                            Assembly.ReflectionOnlyLoad(payloadBytes);
-                        }
-                        catch
-                        {
-                            return DownloadPayloadResult.InvalidAssembly;
-                        }
-
-                        return DownloadPayloadResult.Valid;
-                    }
-                    catch (WebException)
-                    {
-                        return DownloadPayloadResult.InvalidURL;
-                    }
-                    catch (BadImageFormatException)
-                    {
-                        return DownloadPayloadResult.InvalidNETAssembly;
-                    }
-                }
-            });
-            return result;
-        }
-
 
         private void removeToolStripMenuItem_Click(object sender, EventArgs e)
         {
