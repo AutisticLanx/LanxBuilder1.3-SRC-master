@@ -10,7 +10,7 @@ using System.Drawing;
 
 namespace lanx1337
 {
-    //anyone who sells source webhook stealer is a human failure --Ama
+    //renaming = gay atleast gimme some credits 
     public partial class Form1 : Form
     {
         private readonly Random random = new Random();
