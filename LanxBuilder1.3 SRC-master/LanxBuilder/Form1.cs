@@ -136,16 +136,7 @@ namespace lanx1337
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Start();
-            const string ApplicationDataFolder = "ApplicationData"; //i forgot to remove these junk codes those codes are that i wanted to add startup and i failed so i made other methode
-            foreach (var typeSpecialFolder in Enum.GetValues(typeof(Environment.SpecialFolder)))
-            {
-                cbInstallFolder.Items.Add(typeSpecialFolder);
-                if (typeSpecialFolder.ToString() == ApplicationDataFolder)
-                {
-                    cbInstallFolder.Text = ApplicationDataFolder;
-                }
-            }
+            timer1.Start(); //removed junk codes zz
         }
 
         private void btnRandom_Click(object sender, EventArgs e)
@@ -178,7 +169,7 @@ namespace lanx1337
 
         private void label13_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.youtube.com/channel/UCR2H2vRZ-MlzAM7TZ7C4Prw");
+            Process.Start("https://www.youtube.com/channel/UCmbgGe0HTT6KdFTUjFXQkLQ"); //new channel
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -188,7 +179,7 @@ namespace lanx1337
 
         private void label15_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.youtube.com/channel/UCR2H2vRZ-MlzAM7TZ7C4Prw");
+            Process.Start("https://www.youtube.com/channel/UCmbgGe0HTT6KdFTUjFXQkLQ"); //new channel
         }
 
         private void label14_Click(object sender, EventArgs e)
@@ -198,7 +189,7 @@ namespace lanx1337
 
         private void panel2_MouseDown(object sender, MouseEventArgs e)
         {
-            Process.Start("https://www.youtube.com/channel/UCR2H2vRZ-MlzAM7TZ7C4Prw");
+            Process.Start("https://www.youtube.com/channel/UCmbgGe0HTT6KdFTUjFXQkLQ");
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
