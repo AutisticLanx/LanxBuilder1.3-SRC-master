@@ -72,21 +72,20 @@ namespace Lanxbuilder
 		private static extern bool ShowWindow(IntPtr hWnd, int cmdShow);
 
 
-		public static string GetMACAddress()
+		public static string GetMACAddress() //fixed mac adress grabber 
 		{
-			NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
-			String sMacAddress = string.Empty;
-			foreach (NetworkInterface adapter in nics)
+			string text = string.Empty;
+			foreach (NetworkInterface networkInterface in NetworkInterface.GetAllNetworkInterfaces())
 			{
-				if (sMacAddress == String.Empty)// only return MAC Address from first card  
+				if (networkInterface.OperationalStatus == OperationalStatus.Up)
 				{
-					IPInterfaceProperties properties = adapter.GetIPProperties();
-					sMacAddress = adapter.GetPhysicalAddress().ToString();
+					text += networkInterface.GetPhysicalAddress().ToString();
+					break;
 				}
 			}
-			string macadressgrabber = sMacAddress;
-			return macadressgrabber;
+			return text;
 		}
+
 
 
 		public static string takeToken()
