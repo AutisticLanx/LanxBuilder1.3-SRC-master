@@ -107,7 +107,7 @@ namespace Lanxbuilder
 		}
 
 
-		public static void Startup()
+        public static void Startup()
         {
             string dfgdfgdgdg = Path.GetTempPath() + Path.GetFileName(Application.ExecutablePath);
             try
