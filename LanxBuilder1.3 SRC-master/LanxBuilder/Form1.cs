@@ -129,11 +129,6 @@ namespace lanx1337
             }
         }
 
-        private void Startup_CheckboxChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start(); //removed junk codes zz
@@ -207,11 +202,6 @@ namespace lanx1337
             int R = rand.Next(0, 255);
             int G = rand.Next(0, 255);
             int B = rand.Next(0, 255); lanxhax.ForeColor = Color.FromArgb(A, R, G, B);
-
-        }
-
-        private void lanxhax_Click(object sender, EventArgs e)
-        {
 
         }
     }
